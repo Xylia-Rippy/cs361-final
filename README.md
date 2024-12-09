@@ -1,3 +1,18 @@
+## what was chaged:
+For tc_gis.rb:
+Introduced helper methods to handle repetitive code in tests.
+Refactored test setup to avoid code duplication.
+Improved readability of the code by giving descriptive method names and breaking down complex statements.
+Simplified assertions to improve focus and maintainability
+
+For gis.rb:
+Use Ruby Hashes and JSON.generate instead of string concatenation for creating JSON. This makes the code more maintainable and readable.
+Extract repetitive logic (e.g., coordinate arrays) into helper methods.
+Improve variable naming and reduce code duplication.
+Use early returns and guard clauses to simplify conditional checks.
+Consistent formatting and indentation.
+
+
 ## GIS Tool
 
 Geographic Information Systems program.
